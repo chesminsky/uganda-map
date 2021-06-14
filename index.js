@@ -1,39 +1,15 @@
-const markers = [
-	{
-		id: 1,
-		color: 'red',
-		size: 2,
-		lat: 1.22825,
-		lon: 32.171581,
-		title: 'red',
-		description:
-			'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis beatae, minus, hic mollitia accusantium veritatis voluptate perferendis quis temporibus fugiat obcaecati incidunt enim accusamus, pariatur doloribus quibusdam architecto? Reiciendis, nostrum.',
-		funding: '1000 Euro',
-		status: 'status'
-	},
-	{
-		id: 2,
-		color: 'blue',
-		size: 5,
-		lat: 1.54825,
-		lon: 33.71581,
-		title: 'blue',
-		description:
-			'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis beatae, minus, hic mollitia accusantium veritatis voluptate perferendis quis temporibus fugiat obcaecati incidunt enim accusamus, pariatur doloribus quibusdam architecto? Reiciendis, nostrum.',
-		funding: '1000 Euro',
-		status: 'status'
-	}
-];
+window.onload = init;
 
-window.onload = () => {
+async function init() {
 	const map = L.map('mapid', {
-		zoomSnap: 0.5,
-	})
-	.setView([1.4, 32.171581], 7.5);
-
+		zoomSnap: 0.5
+	}).setView([1.4, 32.171581], 7.5);
 
 	L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
 
+	const url = './markers.json';
+	const response = await fetch(url);
+	const markers = await response.json();
 
 	markers.forEach((m) => {
 		function customTip() {
@@ -65,4 +41,4 @@ window.onload = () => {
 		cm.on('mouseover', customTip);
 		cm.on('click', customPop);
 	});
-};
+}

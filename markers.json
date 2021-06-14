@@ -1,0 +1,46 @@
+﻿[
+  {
+    "id": 1,
+    "color": "#047eff",
+    "size": 1,
+    "lat": 0.4821481,
+    "lon": 31.0507106,
+    "title": "Kyegegwa: Kyaka II refugee settlement",
+    "description": "Construction of 3 water schemes (2 in Nakivale and 1 in Kyangwali refugee settlements). In Nakivale, linkages with be stablished with the AFD-EU-NWSC longterm WASH program.",
+    "funding": "-",
+    "status": "-"
+  },
+  {
+    "id": 2,
+    "color": "#047eff",
+    "size": 1,
+    "lat": -0.8166455,
+    "lon": 30.8245782,
+    "title": "Isingiro: Nakivale refugee settlement",
+    "description": "Additional 4km pipeline extension will be implemented in Sweswe water supply system in Kyaka II bringing the total to 19km pipeline extensions by the end of the project. The extension will include construction of an additional 8 tap stands, each with 4 taps and the installation of flow meters. The additional construction will raise the numbers of new tap stand constructions under system expansions to 16 from initial 8.",
+    "funding": "-",
+    "status": "-"
+  },
+  {
+    "id": 3,
+    "color": "#04ff53",
+    "size": 3,
+    "lat": 1.55825,
+    "lon": 33.61581,
+    "title": "World Bank",
+    "description": "Support to the Health Emergency Response Plan",
+    "funding": "US$15 million",
+    "status": "completed"
+  },
+  {
+    "id": 4,
+    "color": "#04ff53",
+    "size": 3,
+    "lat": 1.54825,
+    "lon": 33.51581,
+    "title": "World Bank",
+    "description": "Support the utilities to ensure continuity of water services, DPO Budget support Program",
+    "funding": "US$50 million",
+    "status": "completed"
+  }
+]
