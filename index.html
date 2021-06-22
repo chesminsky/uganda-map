@@ -16,6 +16,9 @@
 			integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
 			crossorigin=""
 		></script>
+		<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css" />
+		<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css" />
+		<script src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js"></script>
 		<script src="index.js"></script>
 		<style>
 			html,
@@ -25,6 +28,16 @@
 			#mapid {
 				height: 100%;
 				width: 100%;
+			}
+			.marker-cluster {
+				background: rgba(2, 117, 216, 0.8) !important;
+			}
+
+			.marker-cluster div {
+				background: #0275d8 !important;
+			}
+			.marker-cluster div span {
+				color: white;
 			}
 		</style>
 	</head>

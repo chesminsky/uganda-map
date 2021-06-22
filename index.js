@@ -9,9 +9,11 @@ async function init() {
 
 	const url = './markers.json';
 	const response = await fetch(url);
-	const markers = await response.json();
+	const data = await response.json();
 
-	markers.forEach((m) => {
+	const markers = L.markerClusterGroup();
+
+	data.forEach((m) => {
 		function customTip() {
 			this.unbindTooltip();
 			if (!this.isPopupOpen()) {
@@ -24,13 +26,13 @@ async function init() {
 		}
 
 		const cm = L.circleMarker([m.lat, m.lon], {
-			radius: m.size * 2,
-			fillOpacity: 1,
+			radius: m.size * 5,
+			fillOpacity: .6,
 			color: m.color,
 			fillColor: m.color
 		});
 
-		cm.addTo(map);
+		markers.addLayer(cm);
 
 		cm.bindPopup(`
             <h3>${m.title}</h3>
@@ -41,4 +43,6 @@ async function init() {
 		cm.on('mouseover', customTip);
 		cm.on('click', customPop);
 	});
+
+	map.addLayer(markers);
 }
