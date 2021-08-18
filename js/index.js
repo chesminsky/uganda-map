@@ -22,12 +22,12 @@ async function init() {
 		map.innerHTML += makeMarker(m.icon, m.name, m.x, m.y);
 	});
 
-	if (navigator.userAgentData.mobile) {
-		Array.from(document.querySelectorAll('.apametsa-map-marker')).forEach((el) =>
-			el.addEventListener('click', (event) => {
-				event.stopPropagation();
-				el.classList.toggle('is-active');
-			})
-		);
-	}
+	// if (navigator.userAgentData.mobile) {
+	// 	Array.from(document.querySelectorAll('.apametsa-map-marker')).forEach((el) =>
+	// 		el.addEventListener('click', (event) => {
+	// 			event.stopPropagation();
+	// 			el.classList.toggle('is-active');
+	// 		})
+	// 	);
+	// }
 }

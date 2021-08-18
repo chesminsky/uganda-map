@@ -27,11 +27,16 @@ body {
 	z-index: 1;
 }
 
-.apametsa-map-marker:hover {
+.apametsa-map-marker:hover, .apametsa-map-marker:active {
 	z-index: 2;
 }
 
 .apametsa-map-marker:hover .apametsa-map-marker-title {
+	z-index: 2;
+	display: block;
+}
+
+.apametsa-map-marker:active .apametsa-map-marker-title {
 	z-index: 2;
 	display: block;
 }
@@ -51,6 +56,8 @@ body {
 	margin-top: 5px;
 	font-size: 12px;
 	display: none;
+	background: #fff;
+	padding: 2px;
 }
 
 .apametsa-map-marker-icon-rimi {
@@ -62,5 +69,9 @@ body {
 }
 
 .apametsa-map-marker-icon-prisma {
+	width: 28px;
+}
+
+.apametsa-map-marker-icon-citycon {
 	width: 28px;
 }

@@ -1,20 +1,26 @@
 ﻿[
-  {
-    "name": "Tabasalu Rimi",
-    "icon": "rimi",
-    "x": 822,
-    "y": 418
-  },
-  {
-    "name": "Kakumäe Selver",
-    "icon": "selver",
-    "x": 696,
-    "y": 352
-  },
-  {
-    "name": "Tiskre Prisma",
-    "icon": "prisma",
-    "x": 253,
-    "y": 336
-  }
- ]
+	{
+		"name": "Tabasalu Rimi",
+		"icon": "rimi",
+		"x": 822,
+		"y": 418
+	},
+	{
+		"name": "Kakumäe Selver",
+		"icon": "selver",
+		"x": 696,
+		"y": 352
+	},
+	{
+		"name": "Tiskre Prisma",
+		"icon": "prisma",
+		"x": 253,
+		"y": 336
+	},
+	{
+		"name": "Rocca al Mare",
+		"icon": "citycon",
+		"x": 866,
+		"y": 391
+	}
+]
