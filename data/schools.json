@@ -14,26 +14,26 @@
 	{
 		"name": "Tallinna Järveotsa Gümnaasium",
 		"icon": "school",
-		"x": 0,
-		"y": 0
+		"x": 778,
+		"y": 609
 	},
 	{
 		"name": "Haabersti Vene Gümnaasium",
 		"icon": "school",
-		"x": 0,
-		"y": 0
+		"x": 830,
+		"y": 497
 	},
 	{
 		"name": "Õismäe Gümnaasium",
 		"icon": "school",
-		"x": 0,
-		"y": 0
+		"x": 820,
+		"y": 574
 	},
 	{
 		"name": "Tallinna Õismäe Vene Lütseum",
 		"icon": "school",
-		"x": 0,
-		"y": 0
+		"x": 857,
+		"y": 579
 	},
 	{
 		"name": "Alasniidu Lasteaed",
@@ -69,43 +69,43 @@
 	{
 		"name": "Järveotsa Lasteaed",
 		"icon": "kinder",
-		"x": 0,
-		"y": 0
+		"x": 753,
+		"y": 619
 	},
 	{
 		"name": "Rukkilille Lasteaed",
 		"icon": "kinder",
-		"x": 0,
-		"y": 0
+		"x": 787,
+		"y": 558
 	},
 	{
 		"name": "Lasteaed Vikerkaar",
 		"icon": "kinder",
-		"x": 0,
-		"y": 0
+		"x": 786,
+		"y": 502
 	},
 	{
 		"name": "Lasteaed Meelespea",
 		"icon": "kinder",
-		"x": 0,
-		"y": 0
+		"x": 798,
+		"y": 530
 	},
 	{
 		"name": "Lasteaed Karikakar",
 		"icon": "kinder",
-		"x": 0,
-		"y": 0
+		"x": 835,
+		"y": 523
 	},
 	{
 		"name": "Nurmenuku Lasteaed",
 		"icon": "kinder",
-		"x": 0,
-		"y": 0
+		"x": 870,
+		"y": 538
 	},
 	{
 		"name": "Lasteaed Sinilill",
 		"icon": "kinder",
-		"x": 0,
-		"y": 0
+		"x": 804,
+		"y": 627
 	}
 ]

@@ -32,18 +32,9 @@ body {
 	z-index: 2;
 }
 
-.apametsa-map-marker:hover .apametsa-map-marker-title {
+.apametsa-map-marker:hover .apametsa-map-marker-title, .apametsa-map-marker:active .apametsa-map-marker-title {
 	z-index: 2;
 	display: block;
-}
-
-.apametsa-map-marker:active .apametsa-map-marker-title {
-	z-index: 2;
-	display: block;
-}
-
-.apametsa-map-marker.is-active .apametsa-map-marker-title {
-	display: block !important;
 }
 
 .apametsa-map-marker img {
@@ -57,7 +48,7 @@ body {
 	justify-content: center;
 	margin-top: 15px;
 	font-size: 12px;
-	/* display: none; */
+	display: none;
 	padding: 2px;
 	position: absolute;
 	top: 50%;
@@ -99,26 +90,13 @@ body {
 	width: 70px;
 }
 
-.apametsa-map-marker-icon-resto {
-	width: 20px;
-}
-
+.apametsa-map-marker-icon-zoo,
+.apametsa-map-marker-icon-gym,
+.apametsa-map-marker-icon-trees,
+.apametsa-map-marker-icon-kinder,
+.apametsa-map-marker-icon-school,
+.apametsa-map-marker-icon-port,
+.apametsa-map-marker-icon-resto,
 .apametsa-map-marker-icon-beach {
-	width: 20px;
-}
-
-.apametsa-map-marker-icon-port {
-	width: 20px;
-}
-
-.apametsa-map-marker-icon-school {
-	width: 20px;
-}
-
-.apametsa-map-marker-icon-kinder {
-	width: 20px;
-}
-
-.apametsa-map-marker-icon-trees {
 	width: 20px;
 }
