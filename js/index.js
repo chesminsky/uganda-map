@@ -8,8 +8,8 @@ const makeMarker = (icon, title, x, y) => {
 				${title}
 			</div>
 		</div>
-	`
-}
+	`;
+};
 
 async function init() {
 	const url = './data/markers.json';
@@ -22,4 +22,11 @@ async function init() {
 		map.innerHTML += makeMarker(m.icon, m.name, m.x, m.y);
 	});
 
+	if (navigator.userAgentData.mobile) {
+		Array.from(document.querySelectorAll('.apametsa-map-marker')).forEach((el) =>
+			el.addEventListener('click', (event) => {
+				el.classList.toggle('is-active');
+			})
+		);
+	}
 }

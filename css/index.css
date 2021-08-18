@@ -4,52 +4,62 @@ body {
 }
 
 .apametsa-container {
-    width:100%;
-    height:100%;
-    background-color:#fafafa;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    font-size: 14px;
-    font-family: Arial, Helvetica, sans-serif;
+	width: 100%;
+	height: 100%;
+	background-color: #fafafa;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 .apametsa-map {
 	width: 1062px;
 	height: 701px;
-    position: relative;
+	position: relative;
 }
 
 .apametsa-map-marker {
-    position: absolute;
-    width: 100px;
-    z-index: 1;
+	position: absolute;
+	width: 100px;
+	z-index: 1;
 }
 
 .apametsa-map-marker:hover {
-    z-index: 2;
+	z-index: 2;
+}
+
+.apametsa-map-marker:hover .apametsa-map-marker-title {
+	z-index: 2;
+	display: block;
+}
+
+.apametsa-map-marker.is-active .apametsa-map-marker-title {
+	display: block !important;
 }
 
 .apametsa-map-marker img {
-    margin: 0 auto;
-    display: block;
-    cursor: pointer;
+	margin: 0 auto;
+	display: block;
+	cursor: pointer;
 }
 
 .apametsa-map-marker-title {
-    text-align: center;
-    margin-top: 5px;
-    font-size: 12px;
+	text-align: center;
+	margin-top: 5px;
+	font-size: 12px;
+	display: none;
 }
 
 .apametsa-map-marker-icon-rimi {
-    width: 36px;
+	width: 36px;
 }
 
 .apametsa-map-marker-icon-selver {
-    width: 30px;
+	width: 30px;
 }
 
 .apametsa-map-marker-icon-prisma {
-    width: 28px;
+	width: 28px;
 }
