@@ -1,0 +1,38 @@
+[
+    {
+		"name": "Lucca",
+		"icon": "resto",
+		"x": 0,
+		"y": 0
+	},
+    {
+		"name": "Talleke & Pulleke",
+		"icon": "resto",
+		"x": 0,
+		"y": 0
+	},
+    {
+		"name": "Puri (Kakumae Heaven)",
+		"icon": "resto",
+		"x": 512,
+		"y": 90
+	},
+    {
+		"name": "Seller (Tabasalu)",
+		"icon": "resto",
+		"x": 0,
+		"y": 0
+	},
+    {
+		"name": "MEAT Resto & Butchery",
+		"icon": "resto",
+		"x": 0,
+		"y": 0
+	},
+    {
+		"name": "BabyBack Ribs & BBQ (Tabasalu)",
+		"icon": "resto",
+		"x": 0,
+		"y": 0
+	}
+]

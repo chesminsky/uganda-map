@@ -2,7 +2,7 @@ window.onload = init;
 
 const makeMarker = (icon, title, x, y) => {
 	return `
-		<div class="apametsa-map-marker" style="top: ${y}px; left: ${x}px">
+		<div data-name="${title}" class="apametsa-map-marker" style="top: ${y}px; left: ${x}px">
 			<img src="img/icons/${icon}.svg" class="apametsa-map-marker-icon-${icon}" />
 			<div class="apametsa-map-marker-title">
 				<span>${title}</span>
@@ -19,7 +19,13 @@ async function load(fileName) {
 }
 
 async function loadAll() {
-	return await Promise.all(['shops'].map(fileName => load(fileName)));
+	const files = [
+		'shops',
+		'restraunts',
+		'resorts',
+		'schools'
+	]
+	return await Promise.all(files.map(fileName => load(fileName)));
 }
 
 async function init() {
@@ -27,7 +33,7 @@ async function init() {
 	console.log(data);
 	const map = document.querySelector('.apametsa-map');
 
-	data.flat().forEach((m) => {
+	data.flat().sort((a, b) => a.name.localeCompare(b.name)).forEach((m) => {
 		map.innerHTML += makeMarker(m.icon, m.name, m.x, m.y);
 	});
 }

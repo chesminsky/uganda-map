@@ -1,0 +1,56 @@
+[
+	{
+		"name": "Haven Kakumäe",
+		"icon": "port",
+		"x": 400,
+		"y": 30
+	},
+    {
+		"name": "Eesti Vabaõhumuuseum",
+		"icon": "trees",
+		"x": 0,
+		"y": 0
+	},
+    {
+		"name": "Zoo",
+		"icon": "zoo",
+		"x": 0,
+		"y": 0
+	},
+    {
+		"name": "Kakumäe Rand",
+		"icon": "beach",
+		"x": 525,
+		"y": 55
+	},
+    {
+		"name": "Harku järve rand",
+		"icon": "beach",
+		"x": 0,
+		"y": 0
+	},
+    {
+		"name": "Teras Beach",
+		"icon": "gym",
+		"x": 0,
+		"y": 0
+	},
+    {
+		"name": "Arigato Spordiklubi",
+		"icon": "gym",
+		"x": 0,
+		"y": 0
+	},
+    {
+		"name": "Õismäe Raba Terviserada",
+		"icon": "trees",
+		"x": 0,
+		"y": 0
+	},
+    {
+		"name": "Rocca al Mare/ Stroomi ranna promenaad",
+		"icon": "trees",
+		"x": 0,
+		"y": 0
+	}
+]
