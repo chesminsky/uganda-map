@@ -23,6 +23,11 @@ body {
 .apametsa-map-marker {
     position: absolute;
     width: 100px;
+    z-index: 1;
+}
+
+.apametsa-map-marker:hover {
+    z-index: 2;
 }
 
 .apametsa-map-marker img {
@@ -33,10 +38,18 @@ body {
 
 .apametsa-map-marker-title {
     text-align: center;
-    margin-top: 10px;
+    margin-top: 5px;
     font-size: 12px;
 }
 
 .apametsa-map-marker-icon-rimi {
     width: 36px;
+}
+
+.apametsa-map-marker-icon-selver {
+    width: 30px;
+}
+
+.apametsa-map-marker-icon-prisma {
+    width: 28px;
 }
