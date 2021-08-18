@@ -8,8 +8,8 @@
 	{
 		"name": "Harkujärve Põhikool",
 		"icon": "school",
-		"x": 0,
-		"y": 0
+		"x": 548,
+		"y": 555
 	},
 	{
 		"name": "Tallinna Järveotsa Gümnaasium",
@@ -38,14 +38,14 @@
 	{
 		"name": "Alasniidu Lasteaed",
 		"icon": "kinder",
-		"x": 0,
-		"y": 0
+		"x": 421,
+		"y": 482
 	},
 	{
 		"name": "Harkujärve lasteaed",
 		"icon": "kinder",
-		"x": 0,
-		"y": 0
+		"x": 506,
+		"y": 532
 	},
 	{
 		"name": "Tabasalu Teelahkme Lasteaed",
