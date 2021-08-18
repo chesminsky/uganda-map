@@ -1,7 +1,7 @@
 html,
 body {
 	height: 100%;
-    margin: 0;
+	margin: 0;
 }
 
 .apametsa-container {
@@ -27,7 +27,8 @@ body {
 	z-index: 1;
 }
 
-.apametsa-map-marker:hover, .apametsa-map-marker:active {
+.apametsa-map-marker:hover,
+.apametsa-map-marker:active {
 	z-index: 2;
 }
 
@@ -52,12 +53,22 @@ body {
 }
 
 .apametsa-map-marker-title {
-	text-align: center;
-	margin-top: 5px;
+	display: flex;
+	justify-content: center;
+	margin-top: 15px;
 	font-size: 12px;
-	display: none;
-	background: #fff;
+	/* display: none; */
 	padding: 2px;
+	position: absolute;
+	top: 50%;
+	left: 0;
+	right: 0;
+}
+
+.apametsa-map-marker-title span {
+	background: #fff;
+	display: block;
+	text-align: center;
 }
 
 .apametsa-map-marker-icon-rimi {
@@ -74,4 +85,16 @@ body {
 
 .apametsa-map-marker-icon-citycon {
 	width: 28px;
+}
+
+.apametsa-map-marker-icon-maxima {
+	width: 50px;
+}
+
+.apametsa-map-marker-icon-bauhaus {
+	width: 24px;
+}
+
+.apametsa-map-marker-icon-krauta {
+	width: 70px;
 }
