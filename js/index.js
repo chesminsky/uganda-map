@@ -14,7 +14,6 @@ const makeMarker = (icon, title, x, y) => {
 async function load(fileName) {
 	const response = await fetch(`./data/${fileName}.json`);
 	const respData = await response.json();
-	console.log(respData)
 	return respData;
 }
 
@@ -30,7 +29,6 @@ async function loadAll() {
 
 async function init() {
 	const data = await loadAll();
-	console.log(data);
 	const map = document.querySelector('.apametsa-map');
 
 	data.flat().sort((a, b) => a.name.localeCompare(b.name)).forEach((m) => {
