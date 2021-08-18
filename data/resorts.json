@@ -2,8 +2,8 @@
 	{
 		"name": "Haven Kakumäe",
 		"icon": "port",
-		"x": 400,
-		"y": 30
+		"x": 525,
+		"y": 55
 	},
     {
 		"name": "Eesti Vabaõhumuuseum",
@@ -20,8 +20,8 @@
     {
 		"name": "Kakumäe Rand",
 		"icon": "beach",
-		"x": 525,
-		"y": 55
+		"x": 360,
+		"y": 82
 	},
     {
 		"name": "Harku järve rand",
