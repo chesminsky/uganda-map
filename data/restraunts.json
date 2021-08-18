@@ -2,8 +2,8 @@
     {
 		"name": "Lucca",
 		"icon": "resto",
-		"x": 0,
-		"y": 0
+		"x": 233,
+		"y": 297
 	},
     {
 		"name": "Talleke & Pulleke",
@@ -20,19 +20,19 @@
     {
 		"name": "Seller (Tabasalu)",
 		"icon": "resto",
-		"x": 0,
-		"y": 0
+		"x": 160,
+		"y": 333
 	},
     {
 		"name": "MEAT Resto & Butchery",
 		"icon": "resto",
-		"x": 0,
-		"y": 0
+		"x": 314,
+		"y": 233
 	},
     {
 		"name": "BabyBack Ribs & BBQ (Tabasalu)",
 		"icon": "resto",
-		"x": 0,
-		"y": 0
+		"x": 141,
+		"y": 373
 	}
 ]

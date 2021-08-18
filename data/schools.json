@@ -50,27 +50,21 @@
 	{
 		"name": "Tabasalu Teelahkme Lasteaed",
 		"icon": "kinder",
-		"x": 0,
-		"y": 0
+		"x": 210,
+		"y": 344
 	},
 
 	{
 		"name": "Minilasteaed Lõvimeri",
 		"icon": "kinder",
-		"x": 0,
-		"y": 0
-	},
-	{
-		"name": "Tabasalu Teelahkme Lasteaed",
-		"icon": "kinder",
-		"x": 0,
-		"y": 0
+		"x": 332,
+		"y": 178
 	},
 	{
 		"name": "Veerise lasteaed",
 		"icon": "kinder",
-		"x": 0,
-		"y": 0
+		"x": 539,
+		"y": 150
 	},
 	{
 		"name": "Järveotsa Lasteaed",
