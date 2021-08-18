@@ -8,8 +8,8 @@
     {
 		"name": "Eesti Vabaõhumuuseum",
 		"icon": "trees",
-		"x": 0,
-		"y": 0
+		"x": 766,
+		"y": 275
 	},
     {
 		"name": "Zoo",
@@ -50,7 +50,7 @@
     {
 		"name": "Rocca al Mare/ Stroomi ranna promenaad",
 		"icon": "trees",
-		"x": 0,
-		"y": 0
+		"x": 949,
+		"y": 342
 	}
 ]
