@@ -10,10 +10,33 @@ body {
     display:flex;
     justify-content:center;
     align-items:center;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .apametsa-map {
 	width: 1062px;
 	height: 701px;
-    background: url('../img/map_bg.png');
+    position: relative;
+}
+
+.apametsa-map-marker {
+    position: absolute;
+    width: 100px;
+}
+
+.apametsa-map-marker img {
+    margin: 0 auto;
+    display: block;
+    cursor: pointer;
+}
+
+.apametsa-map-marker-title {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.apametsa-map-marker-icon-rimi {
+    width: 36px;
 }
