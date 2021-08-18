@@ -25,6 +25,7 @@ async function init() {
 	if (navigator.userAgentData.mobile) {
 		Array.from(document.querySelectorAll('.apametsa-map-marker')).forEach((el) =>
 			el.addEventListener('click', (event) => {
+				event.stopPropagation();
 				el.classList.toggle('is-active');
 			})
 		);
