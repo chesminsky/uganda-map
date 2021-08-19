@@ -21,46 +21,9 @@ body {
 	position: relative;
 }
 
-.apametsa-map-marker {
+.apametsa-map-marker-icon {
 	position: absolute;
-	width: 100px;
-	z-index: 1;
-}
-
-.apametsa-map-marker:hover,
-.apametsa-map-marker:active {
-	z-index: 2;
-}
-
-.apametsa-map-marker:hover .apametsa-map-marker-title,
-.apametsa-map-marker:active .apametsa-map-marker-title {
-	z-index: 2;
-	display: block;
-}
-
-.apametsa-map-marker img {
-	margin: 0 auto;
-	display: block;
 	cursor: pointer;
-}
-
-.apametsa-map-marker-title {
-	display: flex;
-	justify-content: center;
-	margin-top: 15px;
-	font-size: 12px;
-	display: none;
-	padding: 2px;
-	position: absolute;
-	top: 50%;
-	left: 0;
-	right: 0;
-}
-
-.apametsa-map-marker-title span {
-	background: rgba(255, 255, 255, 0.8);
-	display: block;
-	text-align: center;
 }
 
 .apametsa-map-marker-icon-rimi {
