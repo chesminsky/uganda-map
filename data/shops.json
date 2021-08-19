@@ -2,49 +2,49 @@
 	{
 		"name": "Tabasalu Rimi",
 		"icon": "rimi",
-		"x": 822,
+		"x": 862,
 		"y": 418
 	},
 	{
 		"name": "Kakumäe Selver",
 		"icon": "selver",
-		"x": 696,
+		"x": 736,
 		"y": 352
 	},
 	{
 		"name": "Tiskre Prisma",
 		"icon": "prisma",
-		"x": 253,
+		"x": 293,
 		"y": 336
 	},
 	{
 		"name": "Rocca al Mare",
 		"icon": "citycon",
-		"x": 866,
+		"x": 906,
 		"y": 391
 	},
 	{
 		"name": "Maxima XXX (Ehitajate tee)",
 		"icon": "maxima",
-		"x": 865,
+		"x": 905,
 		"y": 443
 	},
 	{
 		"name": "Haabersti Rimi",
 		"icon": "rimi",
-		"x": 116,
+		"x": 156,
 		"y": 346
 	},
 	{
 		"name": "Bauhaus",
 		"icon": "bauhaus",
-		"x": 779,
+		"x": 819,
 		"y": 389
 	},
 	{
 		"name": "K-Rauta",
 		"icon": "krauta",
-		"x": 768,
+		"x": 808,
 		"y": 435
 	}
 ]

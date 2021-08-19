@@ -2,110 +2,110 @@
 	{
 		"name": "Rocca al Mare Kool",
 		"icon": "school",
-		"x": 829,
+		"x": 869,
 		"y": 302
 	},
 	{
 		"name": "Harkujärve Põhikool",
 		"icon": "school",
-		"x": 548,
+		"x": 588,
 		"y": 555
 	},
 	{
 		"name": "Tallinna Järveotsa Gümnaasium",
 		"icon": "school",
-		"x": 778,
+		"x": 818,
 		"y": 609
 	},
 	{
 		"name": "Haabersti Vene Gümnaasium",
 		"icon": "school",
-		"x": 830,
+		"x": 870,
 		"y": 497
 	},
 	{
 		"name": "Õismäe Gümnaasium",
 		"icon": "school",
-		"x": 820,
+		"x": 860,
 		"y": 574
 	},
 	{
 		"name": "Tallinna Õismäe Vene Lütseum",
 		"icon": "school",
-		"x": 857,
+		"x": 897,
 		"y": 579
 	},
 	{
 		"name": "Alasniidu Lasteaed",
 		"icon": "kinder",
-		"x": 421,
-		"y": 482
+		"x": 461,
+		"y": 479
 	},
 	{
 		"name": "Harkujärve lasteaed",
 		"icon": "kinder",
-		"x": 506,
+		"x": 546,
 		"y": 532
 	},
 	{
 		"name": "Tabasalu Teelahkme Lasteaed",
 		"icon": "kinder",
-		"x": 210,
+		"x": 250,
 		"y": 344
 	},
 
 	{
 		"name": "Minilasteaed Lõvimeri",
 		"icon": "kinder",
-		"x": 332,
+		"x": 372,
 		"y": 178
 	},
 	{
 		"name": "Veerise lasteaed",
 		"icon": "kinder",
-		"x": 539,
+		"x": 579,
 		"y": 150
 	},
 	{
 		"name": "Järveotsa Lasteaed",
 		"icon": "kinder",
-		"x": 753,
+		"x": 793,
 		"y": 619
 	},
 	{
 		"name": "Rukkilille Lasteaed",
 		"icon": "kinder",
-		"x": 787,
+		"x": 827,
 		"y": 558
 	},
 	{
 		"name": "Lasteaed Vikerkaar",
 		"icon": "kinder",
-		"x": 786,
+		"x": 826,
 		"y": 502
 	},
 	{
 		"name": "Lasteaed Meelespea",
 		"icon": "kinder",
-		"x": 798,
+		"x": 838,
 		"y": 530
 	},
 	{
 		"name": "Lasteaed Karikakar",
 		"icon": "kinder",
-		"x": 835,
+		"x": 875,
 		"y": 523
 	},
 	{
 		"name": "Nurmenuku Lasteaed",
 		"icon": "kinder",
-		"x": 870,
+		"x": 910,
 		"y": 538
 	},
 	{
 		"name": "Lasteaed Sinilill",
 		"icon": "kinder",
-		"x": 804,
+		"x": 844,
 		"y": 627
 	}
 ]
