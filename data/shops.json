@@ -39,12 +39,12 @@
 		"name": "Bauhaus",
 		"icon": "bauhaus",
 		"x": 819,
-		"y": 389
+		"y": 384
 	},
 	{
 		"name": "K-Rauta",
 		"icon": "krauta",
-		"x": 808,
-		"y": 435
+		"x": 780,
+		"y": 448
 	}
 ]

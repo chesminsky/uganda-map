@@ -22,7 +22,7 @@ async function init() {
 	const map = document.querySelector('.apametsa-map');
 
 	data.flat()
-		.sort((a, b) => a.name.localeCompare(b.name))
+		// .sort((a, b) => a.name.localeCompare(b.name))
 		.forEach((m) => {
 			map.innerHTML += makeMarker(m.icon, m.name, m.x, m.y);
 		});
