@@ -19,6 +19,7 @@ async function load(fileName) {
 
 async function loadAll() {
 	const files = [
+		'apametsa',
 		'shops',
 		'restraunts',
 		'resorts',

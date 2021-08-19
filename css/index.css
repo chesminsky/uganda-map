@@ -32,7 +32,8 @@ body {
 	z-index: 2;
 }
 
-.apametsa-map-marker:hover .apametsa-map-marker-title, .apametsa-map-marker:active .apametsa-map-marker-title {
+.apametsa-map-marker:hover .apametsa-map-marker-title,
+.apametsa-map-marker:active .apametsa-map-marker-title {
 	z-index: 2;
 	display: block;
 }
@@ -57,7 +58,7 @@ body {
 }
 
 .apametsa-map-marker-title span {
-	background: #fff;
+	background: rgba(255, 255, 255, 0.8);
 	display: block;
 	text-align: center;
 }
@@ -99,4 +100,8 @@ body {
 .apametsa-map-marker-icon-resto,
 .apametsa-map-marker-icon-beach {
 	width: 20px;
+}
+
+.apametsa-map-marker-icon-apametsa {
+	width: 30px;
 }
